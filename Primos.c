@@ -1,11 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <math.h>
 #include <locale.h>
 
-#define LIM 1000000
-
 int main(void){
+    //Encontre todos os primos no intervalo [a,b];
+    
     setlocale(LC_ALL,"");
 
     int a, b, qnt;
@@ -16,7 +15,7 @@ int main(void){
     for(; a < b; a++){
         if(a > 1){
             if(a == 2)
-                printf("\n2 é primo!\n");
+                printf("\n2 Ã© primo!\n");
             else{
                 for(int i=1; i <= a/2; i++){
                     if(a%i == 0)
@@ -25,7 +24,7 @@ int main(void){
                         break;
                 }
                 if(qnt == 1)
-                    printf("\n%d é primo!\n", a);
+                    printf("\n%d Ã© primo!\n", a);
                 qnt = 0;
             }
         }
