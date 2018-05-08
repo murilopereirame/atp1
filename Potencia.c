@@ -3,7 +3,8 @@
 #include <locale.h>
 
 int main(void){
-    //Encontre todos os primos no intervalo [a,b];
+    //Obter a^b, com a:real e b:inteiro positivo;
+
     
     setlocale(LC_ALL,"");
 
