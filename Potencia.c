@@ -3,6 +3,8 @@
 #include <locale.h>
 
 int main(void){
+    //Encontre todos os primos no intervalo [a,b];
+    
     setlocale(LC_ALL,"");
 
     float a, resultado=1;
@@ -17,7 +19,7 @@ int main(void){
         resultado = resultado * a;
     }
 
-    printf("\n%.2f elevado a %d é %.2f\n", a, b, resultado);
+    printf("\n%.2f elevado a %d Ã© %.2f\n", a, b, resultado);
 
     system("pause");
 
