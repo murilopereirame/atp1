@@ -9,14 +9,14 @@ int main(void){
 
     setlocale(LC_ALL,"");
 
-    printf("Insira a quantidade de números a serem somados: ");
+    printf("Insira a quantidade de nÃºmeros a serem somados: ");
     scanf("%d", &n);
 
     for(int i=1; i <= n; i++){
         soma += i;
     }
 
-    printf("A soma dos %d primeiros números inteiros positivos é %d !", n, soma);
+    printf("A soma dos %d primeiros nÃºmeros inteiros positivos Ã© %d !", n, soma);
 
     system("pause");
 
