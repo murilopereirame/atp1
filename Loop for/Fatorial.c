@@ -9,11 +9,13 @@ int main(void){
 
     int n, multi=1;
 
-    printf("Insira um número inteiro positivo: ");
+    printf("Insira um número inteiro positivo igual ou maior que 0: ");
     scanf("%d", &n);
-
-    for(int i=1; i<=n; i++){
-        multi *= i;
+    
+    if(n > 0){
+        for(int i=1; i<=n; i++){
+            multi *= i;
+        }
     }
 
     printf("\n%d! é igual a %d\n", n, multi);
