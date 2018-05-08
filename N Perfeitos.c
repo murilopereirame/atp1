@@ -6,6 +6,9 @@
 #define LIM 1000000
 
 int main(void){
+    //Verificar todos os nÃºmeros perfeitos no intervalo [2,1000000];
+
+    
     setlocale(LC_ALL,"");
 
     int soma;
@@ -16,14 +19,14 @@ int main(void){
                 soma += k;
         }
         if(soma == i)
-            printf("O número %d é perfeito!\n", i);
+            printf("O nÃºmero %d Ã© perfeito!\n", i);
         soma = 0;
 
         if(i == LIM)
             break;
     }
 
-    printf("Esses são todos os número perfeitos no intervalo [2~1000000]");
+    printf("Esses sÃ£o todos os nÃºmero perfeitos no intervalo [2~1000000]");
 
     system("pause");
 
