@@ -10,5 +10,8 @@ deles;
 - Verificar todos os números perfeitos no intervalo [2,1000000];
 - Encontre todos os primos no intervalo [a,b];
 - Obter a^b, com a:real e b: inteiro positivo; 
+- Obter aproximações de PI pelas relações:
+
+    ![Relações](https://github.com/murilopereirame/atp1/blob/master/Images/RelacoesPI.png)
 
 Murilo Pereira - 2018
