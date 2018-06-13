@@ -12,6 +12,12 @@ deles;
 - Obter a^b, com a:real e b: inteiro positivo; 
 - Obter aproximações de PI pelas relações:
 
-    ![Relações](https://github.com/murilopereirame/atp1/blob/master/Images/RelacoesPI.png)
+    ![Relações](https://github.com/murilopereirame/atp1/blob/master/Images/RelacoesPI.png)    
+- Conjectura de Golbach
+- Números primos no intervalo [a,b]
+- Números primos gêmeos no intervalo [a,b]
+- Primos de Mersene
+- Números felizes
+- Fórmula de Stirling para computar o Fatorial de um número inteiro positivo
 
 Murilo Pereira - 2018
