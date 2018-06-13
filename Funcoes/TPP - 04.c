@@ -17,7 +17,7 @@ void sprimo(int num);
 void gprimo(int a, int b);
 
 
-//FUN«√O MAIN
+//FUN√á√ÉO MAIN
 int main(void){	
 	int operation = 0, a=0,b=0,i=0,j=0;
 	setlocale(LC_ALL,"");
@@ -28,21 +28,21 @@ int main(void){
 		system("Pause"); 
 		
 	    switch(operation)  {
-	    //OP«√O GOLBACH
+	    //OP√á√ÉO GOLBACH
 		case 1:
-			printf("ENCONTRAR TODOS OS PARES DE N⁄MEROS PRIMOS CUJA SOMA SEJA IGUAL A N NO INTERVALO [4,1000].\n\n");
+			printf("ENCONTRAR TODOS OS PARES DE N√öMEROS PRIMOS CUJA SOMA SEJA IGUAL A N NO INTERVALO [4,1000].\n\n");
 	        i = 4;
 	        for(; i <= 1000; i++)
 	        	sprimo(i);
 	        printf("\n");
 	        system("Pause");
 	        break;	
-	    //OP«√O PRIMOS NO INTERVALO [A.B]
+	    //OP√á√ÉO PRIMOS NO INTERVALO [A.B]
 		case 2:			 
 			printf("ENCONTRAR TODOS OS PRIMOS NO INTERVALO [A,B].\n\n");
 			printf("Insira o intervalo [a, b]: ");
 			scanf("%d %d", &a, &b);
-			printf("Todos os n˙meros no intervalo de [%d, %d] s„o: ",a,b);
+			printf("Todos os n√∫meros no intervalo de [%d, %d] s√£o: ",a,b);
 			for(; a <= b; a++){
 				if(primo(a))
 					printf("%2.d ", a);
@@ -50,15 +50,15 @@ int main(void){
 			printf("\n");
 			system("pause");
 	        break;	
-	    //OP«√O PRIMOS G MEOS NO INTERVALO [A,B]
+	    //OP√á√ÉO PRIMOS G√äMEOS NO INTERVALO [A,B]
 		case 3:
-			printf("ENCONTRAR TODOS OS PRIMOS G MEOS NO INTERVALO [A,B].\n\n");
+			printf("ENCONTRAR TODOS OS PRIMOS G√äMEOS NO INTERVALO [A,B].\n\n");
 			printf("Insira o intervalo [a, b]: ");
 			scanf("%d %d", &a, &b);
 			gprimo(a,b);			 	
 			system("Pause");
 			break;	
-		//OP«√O PRIMOS DE MERSENE
+		//OP√á√ÉO PRIMOS DE MERSENE
 		case 4:
 			j = 1;
 			printf("ENCONTRAR TODOS OS PRIMOS DE MERSENE NO INTERVALO [1, 30].\n\n");			 
@@ -67,32 +67,32 @@ int main(void){
 			printf("\n");
 			system("pause");
 			break;	
-		//OP«√O DE N⁄MEROS FELIZES
+		//OP√á√ÉO DE N√öMEROS FELIZES
 		case 5:
 			i = 4;
-			printf("ENCONTRAR TODOS OS N⁄MEROS FELIZES NO INTERVALO [4,1000].\n\n");
-			printf("Os n˙meros felizes no intervalo de [4,1000] s„o: ");
+			printf("ENCONTRAR TODOS OS N√öMEROS FELIZES NO INTERVALO [4,1000].\n\n");
+			printf("Os n√∫meros felizes no intervalo de [4,1000] s√£o: ");
 			for(; i <= 1000; i++)
 				happy(i);
 			printf("\n");
 			system("pause");
 			break;	
-		//OP«√O DE APROXIMA«√O FATORIAL
+		//OP√á√ÉO DE APROXIMA√á√ÉO FATORIAL
 		case 6:
-			printf("CALCULAR A APROXIMA«√O DO FATORIAL DE N.\n\n");
-			printf("Insira um n˙mero inteiro: ");
+			printf("CALCULAR A APROXIMA√á√ÉO DO FATORIAL DE N.\n\n");
+			printf("Insira um n√∫mero inteiro: ");
 			scanf("%d", &a);
-			printf("O fatorial aproximado de %d È %lf", a, fat(a));
+			printf("O fatorial aproximado de %d √© %lf", a, fat(a));
 			printf("\n");
 			system("pause");
 			break;
-		//OP«√O SAIR
+		//OP√á√ÉO SAIR
 		case 0:
-			printf("\nDesenvolvido por: Murilo Rocha Pereira & Gustavo Marciel Pinheiro Oliveira\nRA: 181250934 & 181253828\nCurso: CiÍncia da ComputaÁ„o\nSemestre: 1∫\n");
+			printf("\nDesenvolvido por: Murilo Rocha Pereira & Gustavo Marciel Pinheiro Oliveira\nRA: 181250934 & 181253828\nCurso: Ci√™ncia da Computa√ß√£o\nSemestre: 1¬∫\n");
 			return 0;
-		//OP«√O INVALIDA
+		//OP√á√ÉO INVALIDA
 		default:
-			printf("Insira uma opÁ„o v·lida =].");
+			printf("Insira uma op√ß√£o v√°lida =].");
 			printf("\n");
 			system("pause");
 			break;	
@@ -100,19 +100,19 @@ int main(void){
 
   } while ( continua() );
   
-  printf("\nDesenvolvido por: Murilo Rocha Pereira & Gustavo Marciel Pinheiro Oliveira\nRA: 181250934 & 181253828\nCurso: CiÍncia da ComputaÁ„o\nSemestre: 1∫\n");
+  printf("\nDesenvolvido por: Murilo Rocha Pereira & Gustavo Marciel Pinheiro Oliveira\nRA: 181250934 & 181253828\nCurso: Ci√™ncia da Computa√ß√£o\nSemestre: 1¬∫\n");
   system("pause");
   return 0;
 	
 }
 
-//SHORT PARA VERIFICAR SE O USU¡RIO DESEJA REALIZAR UMA NOVA OPERA«√O
+//SHORT PARA VERIFICAR SE O USU√ÅRIO DESEJA REALIZAR UMA NOVA OPERA√á√ÉO
 short continua(void) {
 	char ch;
 
     do{
 		system("cls");
-       	printf("\n\nDeseja realizar outro operaÁ„o? [S,N] : ");
+       	printf("\n\nDeseja realizar outro opera√ß√£o? [S,N] : ");
 		ch = getchar();
 		ch = toupper(ch);
   	}
@@ -124,28 +124,28 @@ short continua(void) {
 	  return 0;
 }
 
-//FUN«√O PARA CONSTRUIR O MENU E RETORNAR A OP«√O ESCOLHIDA
+//FUN√á√ÉO PARA CONSTRUIR O MENU E RETORNAR A OP√á√ÉO ESCOLHIDA
 int menu(void) {
   int opcao;
 
   system("CLS");
-  printf("\n\t=====Trabalho pr·tico de programaÁ„o - 04=====\n\n");
-  printf("1. Encontrar todos os pares de n˙meros primos cuja soma seja igual a n no intervalo [4,1000] \n");
+  printf("\n\t=====Trabalho pr√°tico de programa√ß√£o - 04=====\n\n");
+  printf("1. Encontrar todos os pares de n√∫meros primos cuja soma seja igual a n no intervalo [4,1000] \n");
   printf("2. Encontrar todos os primos no intervalo [a,b]\n");
-  printf("3. Encontrar todos os primos gÍmeos no intervalo [a,b]\n");
+  printf("3. Encontrar todos os primos g√™meos no intervalo [a,b]\n");
   printf("4. Encontrar todos os primos de Mersene no intervalo [1, 30]\n");
-  printf("5. Encontrar todos os n˙meros felizes no intervalo [4,1000]\n");
-  printf("6. Calcular a aproximaÁ„o do fatorial de n, com 0 <= n <= 30\n");
+  printf("5. Encontrar todos os n√∫meros felizes no intervalo [4,1000]\n");
+  printf("6. Calcular a aproxima√ß√£o do fatorial de n, com 0 <= n <= 30\n");
   printf("0. Sair");
   
   
-  printf("\n\nEscolha uma opÁ„o dentre as listadas: ");
+  printf("\n\nEscolha uma op√ß√£o dentre as listadas: ");
   scanf("%d", &opcao);
   
   return(opcao);
 }
 
-//FUN«√O PARA VERIFICAR SE UM N⁄MERO … PRIMO
+//FUN√á√ÉO PARA VERIFICAR SE UM N√öMERO √â PRIMO
 short primo(int num){
 	if(num > 1){
         int i = 3;
@@ -165,7 +165,7 @@ short primo(int num){
     	return 0;
 }
 
-//FUN«√O PARA ENCONTRAR OS N⁄MEROS FELIZES
+//FUN√á√ÉO PARA ENCONTRAR OS N√öMEROS FELIZES
 void happy(int num){
 	int numcopy = num, stop = 0, soma = 0;
 	
@@ -198,17 +198,17 @@ void happy(int num){
 	}			 
 }
 
-//FUN«√O PARA ENCONTRAR OS PRIMOS DE MERSENE
+//FUN√á√ÉO PARA ENCONTRAR OS PRIMOS DE MERSENE
 void mersene(int num){
 	int m=0;	
 	
 	m = (pow((double)2, (double)num)) - 1;
 	
 	if(primo(m))
-		printf("\n%d È um primo de Mersene!\nN∫ de Mersene correspondente: %d\n", num, m);	
+		printf("\n%d √© um primo de Mersene!\nN¬∫ de Mersene correspondente: %d\n", num, m);	
 }
 
-//FUN«√O PARA ENCONTRAR E RETORNAR A APROXIMA«√O FATORIAL DE N
+//FUN√á√ÉO PARA ENCONTRAR E RETORNAR A APROXIMA√á√ÉO FATORIAL DE N
 double fat(int num){
 	double raiz = 0, frac = 0;
 	
@@ -218,7 +218,7 @@ double fat(int num){
 	return raiz*frac;
 }
 
-//FUN«√O PARA ENCONTRAR OS PRIMOS CUJA SOMA SEJA IGUAL A N
+//FUN√á√ÉO PARA ENCONTRAR OS PRIMOS CUJA SOMA SEJA IGUAL A N
 void sprimo(int num){
 	if(num >= 4){
 		int i = 0;
@@ -238,14 +238,14 @@ void sprimo(int num){
 			}
 		}
 		if(!found)
-			printf("\nN„o h· primos cuja a soma seja igual a %d", num);
+			printf("\nN√£o h√° primos cuja a soma seja igual a %d", num);
 	}
 }
 
-//fUN«√O PARA ENCONTRAR OS PRIMOS G MEOS
+//fUN√á√ÉO PARA ENCONTRAR OS PRIMOS G√äMEOS
 void gprimo(int a, int b){
 	if(a < b){
-		printf("S„o primos gÍmeos: \n");
+		printf("S√£o primos g√™meos: \n");
 		int n1 = 1, n2 = 1, linha = 0;
 		for(; a <= b; a++){
 			if(linha == 3){
