@@ -13,11 +13,11 @@ deles;
 - Obter aproximações de PI pelas relações:
 
     ![Relações](https://github.com/murilopereirame/atp1/blob/master/Images/RelacoesPI.png)    
-- Conjectura de Golbach
-- Números primos no intervalo [a,b]
-- Números primos gêmeos no intervalo [a,b]
-- Primos de Mersene
-- Números felizes
-- Fórmula de Stirling para computar o Fatorial de um número inteiro positivo
+- Conjectura de Golbach;
+- Números primos no intervalo [a,b];
+- Números primos gêmeos no intervalo [a,b];
+- Primos de Mersene;
+- Números felizes;
+- Fórmula de Stirling para computar o Fatorial de um número inteiro positivo.
 
 Murilo Pereira - 2018
