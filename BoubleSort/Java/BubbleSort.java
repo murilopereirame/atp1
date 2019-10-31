@@ -1,6 +1,6 @@
 // Bubble Sort em java
 
-public class BubbleSortExample {  
+public class BubbleSort{  
     static void bubbleSort(int[] array) {  
         int n = array.length;  
         int temp = 0;  
@@ -22,4 +22,5 @@ public static void main(String[] args) {
     int array[] ={2, 75, 41, 99, 105, 3, 53};
     bubbleSort(array);
     system.out.println(array);
-}  
+    }  
+}
