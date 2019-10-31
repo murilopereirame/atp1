@@ -21,3 +21,4 @@ deles;
 - Fórmula de Stirling para computar o Fatorial de um número inteiro positivo.
 
 Murilo Pereira - 2018
+Commit do Luskas pela camiseta do HacktoberFest
