@@ -1,0 +1,44 @@
+var numeros = [];
+var aux;
+var j = 0;
+
+
+function setup() {
+  createCanvas(400, 300);
+  for (var i = 0; i < width; i++) {
+    numeros[i] = new float;
+    numeros[i] = map(i, 0, width, 0, height);
+  }
+  for (var i = 0; i < width * 20; i++) {
+    var t = floor(random(width));
+    var u = floor(random(width));
+    var aux = numeros[t];
+    numeros[t] = numeros[u];
+    numeros[u] = aux;
+  }
+
+}
+
+function draw() {
+  background(20);
+  stroke(255);
+  
+
+  if (j < width){
+      var menor = width;
+      for (var i = j; i < width; i++) {
+        if (numeros[i] < numeros[menor]) {
+          menor = i;
+        }
+        aux = numeros[j];
+        numeros[j] = numeros[menor];
+        numeros[menor] = aux;
+      }
+    j++;
+    }
+  
+    for (var x = 0; x < width; x++) {
+      line(x, height, x, height - numeros[x]);
+    }
+
+  }
