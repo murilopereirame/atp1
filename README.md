@@ -22,3 +22,6 @@ deles;
 
 Murilo Pereira - 2018
 Commit do Luskas pela camiseta do HacktoberFest
+
+Murilo Pereira - 2020
+Commit do Sushizada pela camiseta do HacktoberFest
